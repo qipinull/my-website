@@ -1,0 +1,42 @@
+body {
+    background: rgb(67, 71, 103);
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    color: rgb(172, 172, 172);
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(255, 255, 255);
+}
+h2 {
+    color: rgb(212, 212, 212);
+}
+div {
+    background: none;
+    margin: auto;
+}
+header {
+    background: black;
+    
+}
+section {
+    background: rgb(67, 71, 103);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    background: black;
+    position: fixed;
+    width: 100%;
+    display: block;
+    bottom: 0;
+    left: 0;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display:  inline-block;
+    margin:  20px;
+}
