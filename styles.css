@@ -1,26 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 body {
-    background: rgb(67, 71, 103);
+    background: #333;
     font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
     color: rgb(172, 172, 172);
     margin: 0;
     padding: 0;
 }
+
+a {
+    color: white;
+}
+
+p {
+    margin: 20;
+    padding: 20;
+}
+
 h1 {
     color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 h2 {
     color: rgb(212, 212, 212);
+    margin: 0;
+    padding: 0;
 }
 div {
     background: none;
     margin: auto;
 }
 header {
-    background:  rgb(0, 0, 0);
+    background: #111;
     
 }
 section {
-    background: rgb(67, 71, 103);
     padding: 20px;
     display: flex;
     flex-direction: row;
