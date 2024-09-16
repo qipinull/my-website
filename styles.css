@@ -12,6 +12,12 @@ body {
     padding: 0;
 }
 
+nav {
+    background: rgba(0, 0, 0, 0.616);
+    position: fixed;
+    width: 100%;
+}
+
 a {
     color: white;
 }
@@ -22,6 +28,7 @@ p {
 }
 
 h1 {
+    padding-top: 100px;
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
@@ -37,7 +44,6 @@ div {
 }
 header {
     background: #111;
-    
 }
 section {
     padding: 20px;
@@ -52,10 +58,106 @@ footer {
     bottom: 0;
     left: 0;
 }
+
 ul {
     list-style-type: none;
+    
 }
+
 li {
     display:  inline-block;
     margin:  20px;
+}
+
+.topmar {
+    margin-top: 400px;
+}
+
+.navpf {
+    height: 40px;
+}
+
+.pf {
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav-left {
+    float: left;
+    color: white;
+}
+
+.topnav-center {
+    float: center;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+    color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.button {
+    position: flex;
+    border: #111;
+    border-width: 50px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    opacity: inherit;
+    padding: 33px 33px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #222;
+    color: #ffffff;
+    border: 2px solid #222;
+}
+  
+.button:hover {
+    background-color: #222;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.616);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
