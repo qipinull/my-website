@@ -118,6 +118,41 @@ li {
     text-align: right;
 }
 
+.abtd {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.abtb {
+    width: 600px;
+    border: #111;
+    border-width: 50px;
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+    padding: 33px 33px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    margin: inherit;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.abtb:hover {
+    background-color: #222;
+    color: #ffffff;
+}
+
+.abt {
+    display: none;
+}
+
+.abti {
+    font-size: x-large;
+}
+
 .button {
     position: flex;
     border: #111;
